@@ -11,242 +11,232 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Rotten Tomatoes
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Rotten Tomatoes Get Lists
-  x-api-slug: rotten-tomatoes
+- name: Rotten Tomatoes - Get Lists
+  x-api-slug: lists-json-get
   description: Get lists.json.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rotten-tomatoes-logo.png
   humanURL: http://rottentomatoes.com
-  baseURL: https://api.rottentomatoes.com//api/public/v1.0//lists.json
-  tags: Lists
+  baseURL: https://api.rottentomatoes.com//api/public/v1.0
+  tags: Movies, General Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/lists-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/lists-json-get-openapi.md
-- name: Rotten Tomatoes Get Lists Dvds
-  x-api-slug: rotten-tomatoes
+- name: Rotten Tomatoes - Get Lists Dvds
+  x-api-slug: listsdvds-json-get
   description: Get lists dvds.json.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rotten-tomatoes-logo.png
   humanURL: http://rottentomatoes.com
-  baseURL: https://api.rottentomatoes.com//api/public/v1.0//lists/dvds.json
-  tags: Lists,Dvds
+  baseURL: https://api.rottentomatoes.com//api/public/v1.0
+  tags: Movies, General Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/listsdvds-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/listsdvds-json-get-openapi.md
-- name: Rotten Tomatoes Get Lists Dvds Current Releases
-  x-api-slug: rotten-tomatoes
+- name: Rotten Tomatoes - Get Lists Dvds Current Releases
+  x-api-slug: listsdvdscurrent-releases-json-get
   description: Get lists dvds current releases.json.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rotten-tomatoes-logo.png
   humanURL: http://rottentomatoes.com
-  baseURL: https://api.rottentomatoes.com//api/public/v1.0//lists/dvds/current_releases.json
-  tags: Lists,Dvds,Current,Releases
+  baseURL: https://api.rottentomatoes.com//api/public/v1.0
+  tags: Movies, General Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/listsdvdscurrent-releases-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/listsdvdscurrent-releases-json-get-openapi.md
-- name: Rotten Tomatoes Get Lists Dvds New Releases
-  x-api-slug: rotten-tomatoes
+- name: Rotten Tomatoes - Get Lists Dvds New Releases
+  x-api-slug: listsdvdsnew-releases-json-get
   description: Get lists dvds new releases.json.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rotten-tomatoes-logo.png
   humanURL: http://rottentomatoes.com
-  baseURL: https://api.rottentomatoes.com//api/public/v1.0//lists/dvds/new_releases.json
-  tags: Lists,Dvds,New,Releases
+  baseURL: https://api.rottentomatoes.com//api/public/v1.0
+  tags: Movies, General Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/listsdvdsnew-releases-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/listsdvdsnew-releases-json-get-openapi.md
-- name: Rotten Tomatoes Get Lists Dvds Top Rentals
-  x-api-slug: rotten-tomatoes
+- name: Rotten Tomatoes - Get Lists Dvds Top Rentals
+  x-api-slug: listsdvdstop-rentals-json-get
   description: Get lists dvds top rentals.json.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rotten-tomatoes-logo.png
   humanURL: http://rottentomatoes.com
-  baseURL: https://api.rottentomatoes.com//api/public/v1.0//lists/dvds/top_rentals.json
-  tags: Lists,Dvds,Top,Rentals
+  baseURL: https://api.rottentomatoes.com//api/public/v1.0
+  tags: Movies, General Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/listsdvdstop-rentals-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/listsdvdstop-rentals-json-get-openapi.md
-- name: Rotten Tomatoes Get Lists Dvds Upcoming
-  x-api-slug: rotten-tomatoes
+- name: Rotten Tomatoes - Get Lists Dvds Upcoming
+  x-api-slug: listsdvdsupcoming-json-get
   description: Get lists dvds upcoming.json.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rotten-tomatoes-logo.png
   humanURL: http://rottentomatoes.com
-  baseURL: https://api.rottentomatoes.com//api/public/v1.0//lists/dvds/upcoming.json
-  tags: Lists,Dvds,Upcoming
+  baseURL: https://api.rottentomatoes.com//api/public/v1.0
+  tags: Movies, General Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/listsdvdsupcoming-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/listsdvdsupcoming-json-get-openapi.md
-- name: Rotten Tomatoes Get Lists Movies
-  x-api-slug: rotten-tomatoes
+- name: Rotten Tomatoes - Get Lists Movies
+  x-api-slug: listsmovies-json-get
   description: Get lists movies.json.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rotten-tomatoes-logo.png
   humanURL: http://rottentomatoes.com
-  baseURL: https://api.rottentomatoes.com//api/public/v1.0//lists/movies.json
-  tags: Lists,Movies
+  baseURL: https://api.rottentomatoes.com//api/public/v1.0
+  tags: Movies, General Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/listsmovies-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/listsmovies-json-get-openapi.md
-- name: Rotten Tomatoes Get Lists Movies Box Office
-  x-api-slug: rotten-tomatoes
+- name: Rotten Tomatoes - Get Lists Movies Box Office
+  x-api-slug: listsmoviesbox-office-json-get
   description: Get lists movies box office.json.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rotten-tomatoes-logo.png
   humanURL: http://rottentomatoes.com
-  baseURL: https://api.rottentomatoes.com//api/public/v1.0//lists/movies/box_office.json
-  tags: Lists,Movies,Box,Office
+  baseURL: https://api.rottentomatoes.com//api/public/v1.0
+  tags: Movies, General Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/listsmoviesbox-office-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/listsmoviesbox-office-json-get-openapi.md
-- name: Rotten Tomatoes Get Lists Movies In Theaters
-  x-api-slug: rotten-tomatoes
+- name: Rotten Tomatoes - Get Lists Movies In Theaters
+  x-api-slug: listsmoviesin-theaters-json-get
   description: Get lists movies in theaters.json.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rotten-tomatoes-logo.png
   humanURL: http://rottentomatoes.com
-  baseURL: https://api.rottentomatoes.com//api/public/v1.0//lists/movies/in_theaters.json
-  tags: Lists,Movies,In,Theaters
+  baseURL: https://api.rottentomatoes.com//api/public/v1.0
+  tags: Movies, General Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/listsmoviesin-theaters-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/listsmoviesin-theaters-json-get-openapi.md
-- name: Rotten Tomatoes Get Lists Movies Opening
-  x-api-slug: rotten-tomatoes
+- name: Rotten Tomatoes - Get Lists Movies Opening
+  x-api-slug: listsmoviesopening-json-get
   description: Get lists movies opening.json.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rotten-tomatoes-logo.png
   humanURL: http://rottentomatoes.com
-  baseURL: https://api.rottentomatoes.com//api/public/v1.0//lists/movies/opening.json
-  tags: Lists,Movies,Opening
+  baseURL: https://api.rottentomatoes.com//api/public/v1.0
+  tags: Movies, General Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/listsmoviesopening-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/listsmoviesopening-json-get-openapi.md
-- name: Rotten Tomatoes Get Lists Movies Upcoming
-  x-api-slug: rotten-tomatoes
+- name: Rotten Tomatoes - Get Lists Movies Upcoming
+  x-api-slug: listsmoviesupcoming-json-get
   description: Get lists movies upcoming.json.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rotten-tomatoes-logo.png
   humanURL: http://rottentomatoes.com
-  baseURL: https://api.rottentomatoes.com//api/public/v1.0//lists/movies/upcoming.json
-  tags: Lists,Movies,Upcoming
+  baseURL: https://api.rottentomatoes.com//api/public/v1.0
+  tags: Movies, General Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/listsmoviesupcoming-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/listsmoviesupcoming-json-get-openapi.md
-- name: Rotten Tomatoes Get Movie Alias
-  x-api-slug: rotten-tomatoes
+- name: Rotten Tomatoes - Get Movie Alias
+  x-api-slug: movie-alias-json-get
   description: Get movie alias.json.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rotten-tomatoes-logo.png
   humanURL: http://rottentomatoes.com
-  baseURL: https://api.rottentomatoes.com//api/public/v1.0//movie_alias.json
-  tags: Movie,Alias
+  baseURL: https://api.rottentomatoes.com//api/public/v1.0
+  tags: Movies, General Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/movie-alias-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/movie-alias-json-get-openapi.md
-- name: Rotten Tomatoes Get Movies
-  x-api-slug: rotten-tomatoes
+- name: Rotten Tomatoes - Get Movies
+  x-api-slug: movies-json-get
   description: Get movies.json.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rotten-tomatoes-logo.png
   humanURL: http://rottentomatoes.com
-  baseURL: https://api.rottentomatoes.com//api/public/v1.0//movies.json
-  tags: Movies
+  baseURL: https://api.rottentomatoes.com//api/public/v1.0
+  tags: Movies, General Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/movies-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/movies-json-get-openapi.md
-- name: Rotten Tomatoes Get Movies
-  x-api-slug: rotten-tomatoes
+- name: Rotten Tomatoes - Get Movies
+  x-api-slug: moviesid-json-get
   description: Get movies .json.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rotten-tomatoes-logo.png
   humanURL: http://rottentomatoes.com
-  baseURL: https://api.rottentomatoes.com//api/public/v1.0//movies/{id}.json
-  tags: Movies
+  baseURL: https://api.rottentomatoes.com//api/public/v1.0
+  tags: Movies, General Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/moviesid-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/moviesid-json-get-openapi.md
-- name: Rotten Tomatoes Get Movies Cast
-  x-api-slug: rotten-tomatoes
+- name: Rotten Tomatoes - Get Movies Cast
+  x-api-slug: moviesidcast-json-get
   description: Get movies cast.json.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rotten-tomatoes-logo.png
   humanURL: http://rottentomatoes.com
-  baseURL: https://api.rottentomatoes.com//api/public/v1.0//movies/{id}/cast.json
-  tags: Movies,Cast
+  baseURL: https://api.rottentomatoes.com//api/public/v1.0
+  tags: Movies, General Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/moviesidcast-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/moviesidcast-json-get-openapi.md
-- name: Rotten Tomatoes Get Movies Clips
-  x-api-slug: rotten-tomatoes
+- name: Rotten Tomatoes - Get Movies Clips
+  x-api-slug: moviesidclips-json-get
   description: Get movies clips.json.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rotten-tomatoes-logo.png
   humanURL: http://rottentomatoes.com
-  baseURL: https://api.rottentomatoes.com//api/public/v1.0//movies/{id}/clips.json
-  tags: Movies,Clips
+  baseURL: https://api.rottentomatoes.com//api/public/v1.0
+  tags: Movies, General Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/moviesidclips-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/moviesidclips-json-get-openapi.md
-- name: Rotten Tomatoes Get Movies Reviews
-  x-api-slug: rotten-tomatoes
+- name: Rotten Tomatoes - Get Movies Reviews
+  x-api-slug: moviesidreviews-json-get
   description: Get movies reviews.json.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rotten-tomatoes-logo.png
   humanURL: http://rottentomatoes.com
-  baseURL: https://api.rottentomatoes.com//api/public/v1.0//movies/{id}/reviews.json
-  tags: Movies,Reviews
+  baseURL: https://api.rottentomatoes.com//api/public/v1.0
+  tags: Movies, General Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/moviesidreviews-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/moviesidreviews-json-get-openapi.md
-- name: Rotten Tomatoes Get Movies Similar
-  x-api-slug: rotten-tomatoes
+- name: Rotten Tomatoes - Get Movies Similar
+  x-api-slug: moviesidsimilar-json-get
   description: Get movies similar.json.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rotten-tomatoes-logo.png
   humanURL: http://rottentomatoes.com
-  baseURL: https://api.rottentomatoes.com//api/public/v1.0//movies/{id}/similar.json
-  tags: Movies,Similar
+  baseURL: https://api.rottentomatoes.com//api/public/v1.0
+  tags: Movies, General Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/moviesidsimilar-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/moviesidsimilar-json-get-openapi.md
-- name: Rotten Tomatoes
-  x-api-slug: rotten-tomatoes
-  description: 'Rotten Tomatoes is a website containing information about movies:
-    information, news, reviews and ratings, pictures, etx. The Rotten Tomatoes API
-    is RESTful web service that was designed to be easy to explore and use. Developers
-    can use the API to access the Rotten Tomatoes&#039; database of movie data by
-    using the Lists, Movies, or DVDs sections of the API.'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rotten-tomatoes-logo.png
-  humanURL: http://rottentomatoes.com
-  baseURL: https://api.rottentomatoes.com//api/public/v1.0
-  tags: Rotten Tomatoes
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/rotten-tomatoes/master/_listings/rotten-tomatoes/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://rite.kit.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://rotten.tomatoes.stack.network
 - type: x-developer
   url: http://developer.rottentomatoes.com/
 - type: x-twitter
